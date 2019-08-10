@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+.body {
+	margin:0px;
+	padding:0px;
+}
+.parent {
+	background-color: blue;
+	height: 1000px;
+	color:white;
+	padding-top:40px;
+	margin:0;
+	
+}
+.child-logo {
+	position:relative;
+	float:left;
+	height:60px;
+	padding-top:40px;
+	padding-left:20px;
+	padding-right:20px;
+	background-color:green;
+	font-size: 20px;
+	font-weight: 900;
+}
+.child-one {
+	background-color:yellow;
+	position:relative;
+	float:right;
+	height:60px;
+	width:100px;
+	color:black;
+	text-align: center;
+	padding-top:40px;
+
+	
+}
+.child-one:hover {
+	background-color:lightyellow;
+	position:relative;
+	float:right;
+	height:60px;
+	width:100px;
+	color:black;
+	text-align: center;
+	padding-top:40px;
+
+	
+}
+.child-two {
+	background-color:red;
+	position:relative;
+	float:right;
+	height:60px;
+	width:100px;
+	margin:0 20px;
+	color:black;
+	text-align: center;
+	padding-top:40px;
+	
+}
+.child-three {
+	background-color: pink;
+	position:relative;
+	float:right;
+	height:60px;
+	width:100px;
+	color:black;
+	text-align: center;
+	padding-top:40px;
+	
+}
+
+.container {
+	width: 980px;
+	position:sticky;
+	top:0px;
+	z-index:10;
+	opacity: 0.95;
+	background-color:lightgrey;
+	margin: 0 auto;
+	height:100px;
+}
+.container2 {
+	width: 980px;
+	background-color:white;
+	margin-top: 0;
+	margin-right:auto;
+	margin-bottom:50px;
+	margin-left:auto;
+	padding-top:20px;
+	height:900px;
+	color:black;
+}
+.container2 p {
+	margin:20px;
+	position:relative;
+}
+.footer {
+	width: 100%;
+	position:fixed;
+	bottom: 0px;
+	height:40px;
+	background-color:black;
+	margin: 0px auto;
+	padding-top: 20px;
+	text-align: center;
+
+}
+	
